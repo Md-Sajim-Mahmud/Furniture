@@ -1,0 +1,395 @@
+/* ================extra small responsive css================= */
+@media (min-width: 320px) and (max-width: 575.98px) {
+/* ===========================menu part start======================= */
+.navbar-brand img {
+	width: 129px;
+}
+.main-menu {
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+.navbar-toggler {
+	padding:3px 5px ;
+	color: #fff;
+	background-color:#054C73 ;
+	border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+	border-radius:5px ;
+	transition: var(--bs-navbar-toggler-transition);
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-toggler {
+	font-size: 24px;
+}
+/* ===============================menu part end========================= */
+
+/* ================================banner part start======================== */
+.banner-cart {
+	width: 100%;
+	padding: 37px 58px 41px 12px;
+}
+.banner-cart h1 {
+	font-size: 30px;
+	width: 239px;
+}
+#banner {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.banner-cart p {
+	font-size: 10px;
+	width: 270px;
+	line-height: 22px;
+}
+.banner-cart a {
+	width: 143px;
+	height: 56px;
+	font-size: 14px;
+	margin-top: 21px;
+}
+
+/* =====================================banner part end========================= */
+
+
+/* ======================================option part start======================== */
+.option-text h2 {
+    text-align: center;
+    }
+    .option-text p {
+    text-align: center;
+    }
+    .option-image1 img {
+        width: 58px;
+    }
+    #option {
+        padding-top: 20px;
+        padding-bottom: 13px;
+    }
+    .coomon-head h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .coomon-head p {
+        font-size: 15px;
+    }
+
+/* ========================================option part end========================== */
+
+/* ======================================collection part start======================== */
+#collection {
+	padding-top: 37px;
+	padding-bottom: 47px;
+}
+.one img {
+	width: 273px;
+	padding-bottom: 23px;
+    right: 5px;
+}
+#collection {
+	padding-top: 37px;
+	padding-bottom: 10px;
+}
+
+
+/* ======================================collection part end======================== */
+
+/* ======================================beautify part start======================== */
+
+.beautify-image img{
+    width: 183px;
+    margin-top: 10px;
+  }
+
+.beautify-main-cart p {
+	font-size: 10px;
+	line-height: 23px;
+	width: 100%;
+	margin-bottom: 3px;
+}
+.beautify-main-cart a {
+	width: 86px;
+	height: 31px;
+    font-size: 10px ;
+}
+#beautify {
+	padding-bottom: 19px;
+}
+.beautify-main-cart h2 {
+	font-size: 10px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+
+/* ======================================beautify part  end ======================== */
+
+/* ======================================rang part start======================== */
+.rang-text h2 {
+	font-size: 26px;
+	margin-bottom: 7px;
+}
+.rang-text p {
+	font-size: 15px;
+}
+.one img {
+	width: 295px;
+}
+.one h2 {
+	padding-top: 0px;
+}
+.two h3 {
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* ======================================rang part end============================= */
+
+/* ======================================work part start======================== */
+.work-text h2 {
+    margin-top: -39px;
+	padding-bottom: 14px;
+}
+.work-text p {
+	font-size: 17px;
+	justify-content: center;
+    text-align: center;
+	padding-bottom: 29px;
+}
+.work-mail{
+	gap: 30px;
+}
+.work-main img{
+    width: 100%;
+}
+
+
+
+
+
+/* ======================================work part end======================== */
+
+/* ======================================mail part start======================== */
+.mail-text h2 {
+	font-size: 26px;
+}
+.mail-text p {
+	font-size: 14px;
+	width: 314px;
+}
+.buttons input {
+	padding-left: 35px;
+}
+.buttons input {
+	padding-left: 19px;
+}
+
+
+.buttons button {
+	font-size: 14px;
+}
+/* ======================================mail part end======================== */
+
+/* ======================================foooter part start======================== */
+.cart h6 {
+	font-size: 15px;
+	padding-top: 20px;
+}
+.footer-text-cart p {
+	font-size: 11px;
+	width: 123px;
+	padding-top: 19px;
+}
+.cart h5 {
+	font-size: 15px;
+	padding-top: 18px;
+}
+
+.footer-text2 h1 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.footer-text2 h1 {
+	font-size: 15px;
+	padding-top: 18px;
+	padding-bottom: 15px;
+}
+/* ======================================foooter part end======================== */}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================large  responsive css====================
+@media (min-width: 992px) and (max-width: 1200.98px){
+    .beautify-main-cart p {
+        font-size: 10px;
+        line-height: 23px;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    .beautify-main-cart a {
+        width: 86px;
+        height: 31px;
+        font-size: 10px ;
+    }
+    #beautify {
+        padding-bottom: 19px;
+    }
+    .beautify-main-cart h2 {
+        font-size: 10px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    
+    
+    /* ======================================beautify part  end ======================== */
+    
+    /* ======================================rang part start======================== */
+    .rang-text h2 {
+        font-size: 26px;
+        margin-bottom: 7px;
+    }
+    .rang-text p {
+        font-size: 15px;
+    }
+    .one img {
+        width: 295px;
+    }
+    .one h2 {
+        padding-top: 0px;
+    }
+    .two h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* ======================================rang part end============================= */
+    
+    /* ======================================work part start======================== */
+    .work-text h2 {
+        margin-top: -39px;
+        padding-bottom: 14px;
+    }
+    .work-text p {
+        font-size: 17px;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 29px;
+    }
+    .work-mail{
+        gap: 30px;
+    }
+    .work-main img{
+        width: 100%;
+    }
+    
+    
+    /* ======================================work part end======================== */
+    
+    /* ======================================mail part start======================== */
+    .mail-text h2 {
+        font-size: 26px;
+    }
+    .mail-text p {
+        font-size: 14px;
+        width: 314px;
+    }
+    .buttons input {
+        padding-left: 35px;
+    }
+    .buttons input {
+        padding-left: 19px;
+    }
+    
+    
+    .buttons button {
+        font-size: 14px;
+    }
+    /* ======================================mail part end======================== */
+    
+    /* ======================================foooter part start======================== */
+    .cart h6 {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .footer-text-cart p {
+        font-size: 11px;
+        width: 123px;
+        padding-top: 19px;
+    }
+    .cart h5 {
+        font-size: 15px;
+        padding-top: 18px;
+    }
+    
+    .footer-text2 h1 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .footer-text2 h1 {
+        font-size: 15px;
+        padding-top: 18px;
+        padding-bottom: 15px;
+    }
+
+
+/* =========================large responsive css======================
+
+/* ============================beautify part start============================== */
+.beautify-main-cart h2 {
+	font-size: 32px;
+	margin-top: 244px;
+}
+.beautify-main-cart p {
+	font-size: 20px;
+	line-height: 35px;
+	margin-bottom: 26px;
+    padding-top: 10px;
+}
+.beautify-main-cart a {
+	width: 185px;
+	height: 70px;
+	font-size: 17px;
+    font-family: var(--monstart);
+    font-weight: 700;
+}
+/* ==============================beautify part end================================== */
+/* ==============================rang part start================================== */
+.rang-text h2 {
+	font-size: 32px;
+	margin-bottom: 24px;
+}
+.rang-text p {
+	font-size: 20px;
+}
+.one img {
+	width: 345px !important;
+}
+.rang-image {
+	display: flex;
+}
+.one h2 {
+	padding-top: 20px;
+}
+.three h4 {
+	padding-top: 20px;
+}
+.two h3 {
+	padding-top: 20px;
+}
+
+/* ==============================rang part end================================== */
+
+/* ===================work part start========================== */
+.work-text p {
+	font-size: 20px;
+}
+.work-main {
+	display: flex;
+	gap: 30px;
+} 

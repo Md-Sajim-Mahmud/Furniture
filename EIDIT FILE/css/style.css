@@ -1,0 +1,417 @@
+/* ============================coomun css part start======================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --monstart :"Montserrat", sans-serif;
+    --brand-color :#054C73;
+    --normal-color :#333333;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.coomon-head h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--normal-color);
+    font-family: var(--monstart);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.coomon-head p{
+    font-size: 20px;
+    font-family: var(--monstart);
+    color: var(--normal-color);
+    font-weight: 400;
+    text-align: center ;
+    padding-bottom: 20px;
+}
+
+/* ============================coomun css end=============================== */
+
+/* ============================menu css part start======================== */
+.banner-cart a:hover{
+    color: red;
+}
+.main-menu{
+    padding-top: 43px;
+    padding-bottom: 38px;
+}
+.main-menu ul{
+    gap: 73px;
+
+}
+.main-menu ul li a{
+    font-style: 14px;
+    font-family: var(--monstart);
+    color: var(--normal-color);
+    font-weight: 600;
+
+}
+.main-menu ul li a:hover{
+    color: aqua !important;
+    transition: all linear .4s;
+}
+
+/* ============================menu css end=============================== */
+
+/* ============================banner css part start======================== */
+#banner{
+    background: url(../image/Mask\ Group.jpg);
+    padding-top: 151px;
+    padding-bottom: 155px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-cart{
+    width: 643px;
+    background-repeat: 10px;
+    background: #DFE9F4;
+    padding: 37px 58px 41px 39px;
+}
+.banner-cart h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--monstart);
+    color: var(--normal-color);
+    letter-spacing: 3px;
+}
+.banner-cart h1{
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    color: var(--brand-color);
+    width: 421px;
+    margin: 20px 0px ;
+}
+.banner-cart p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--monstart);
+    color: var(--normal-color);
+    width: 546px;
+    line-height: 39px;
+}
+.banner-cart a{
+    width: 229px;
+    height: 70px;
+    background: var(--brand-color);
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 30px; 
+}
+.banner-main-cart{
+    display: flex;
+    justify-content: end;
+}
+/* ============================banner part css end=============================== */
+
+/* =============================== option css part start======================== */
+#option{
+    padding-top: 50px;
+    padding-bottom: 49px;
+    background: #DFE9F4;
+}
+.main-option{  
+    display: flex;
+    gap: 27px;
+}
+.option-text h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--normal-color);
+    font-family: var(--monstart);
+}
+.option-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--normal-color);
+    font-family: var(--monstart);
+}
+/* ================================ collection part start============================= */
+#collection{
+    padding-top: 60px;
+    padding-bottom: 66px;
+}
+
+.collection-cart1{
+    width: 355px;
+    border-top-left-radius: 80px;
+    overflow: hidden;
+   padding-top: 93px;
+
+}
+.collection-cart2{
+   border-radius: 0px;
+}
+.collection-cart3{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 80px;
+
+}
+.one{
+    padding-top: 1px;
+}
+
+/* ============================collection part end=============================== */
+/*==========================beautify part start==================== */
+#beautify{
+    background: #DFE9F4;
+    margin-bottom: 72px;
+}
+.beautify-main-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.beautify-main-cart h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    color: #333333;
+    margin-top: 270px;
+    margin-bottom: 25px;
+}
+.beautify-main-cart p{
+    color:#666666;
+    font-size: 20px;
+    line-height: 39px;
+    font-family: var(--monstart);
+    width: 489px;
+    margin-bottom: 25px;
+
+}
+.beautify-main-cart a{
+    width: 228px;
+    height: 68px;
+    background: #054C73;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: var(--monstart);
+
+}
+
+/*============================beautify part end======================= */
+
+/* ================================rang part start=================== */
+.rang-text h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--normal-color);
+    font-family: var(--monstart);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rang-text p{
+    font-size: 20px;
+    font-family: var(--monstart);
+    color: var(--normal-color);
+    font-weight: 400;
+    text-align: center ;
+}
+.rang-image{
+    margin-top: 88px;
+    padding-bottom: 90px;
+    gap: 30px;
+}
+ .one h2{
+    text-align: center;
+    font-family: var(--monstart);
+    font-size: 24px;
+    font-weight: 600;
+    color:#333333;
+    padding-top: 1px;
+   padding-bottom: 10px;
+
+}
+.two h3{
+    text-align: center;
+    font-family: var(--monstart);
+    font-size: 24px;
+    font-weight: 600;
+    color:#333333;
+    padding-top: 30px;
+    
+
+}
+.three h4{
+    text-align: center;
+    font-family: var(--monstart);
+    font-size: 24px;
+    font-weight: 600;
+    color:#333333;
+    padding-top: 30px;
+    
+
+}
+ /* ==============================rang part end================== */
+
+/* =================================work part start================== */
+.work-text h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.work-text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--monstart);
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 66px;
+
+}
+.work-image img{
+    position: absolute;
+}
+.work-main h2{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    background:#111111 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   left:16% ;
+   transform: translateX(140%);
+   top: -38px;
+   outline: 15px solid #fff;
+}
+.work-main{
+    /* display: flex; */
+    gap: 30px;
+}
+
+
+
+
+
+/* =================================work part end================== */
+/* ================================mail part start=============================== */
+#mail{
+    background: #DFE9F4;
+    padding-top: 110px;
+}
+.mail-text h2{
+    font-size: 32px;
+    font-family: var(--monstart);
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mail-text p{
+    font-size: 20px;
+    font-family: var(--monstart);
+    font-weight: 400;
+    color: #666666;
+   margin: 0 auto;
+   width: 514px;
+   text-align: center;
+   
+}
+.buttons{
+    width: 484px;
+    height: 70px;
+    border: 1px solid #054C73;
+    display: flex;
+    margin: 25px  auto 63px;
+    border: none;
+    
+}
+.buttons button{
+    width: 153px;
+    height: 70px;
+    background: var(--brand-color);
+    border: 1px solid #011C42;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    
+}
+.buttons input{
+    padding-left: 50px;
+   
+} 
+/* ================================mail part end=============================== */
+
+/* ========================fooer partt start============ */
+#footer{
+ background: var(--brand-color);    
+}
+.cart h6{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    color: #fff;
+    padding-top: 65px;
+}
+.footer-text-cart p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--monstart);
+    color: #fff;
+    width:400px ;
+    padding-top: 35px;
+}
+.cart h5{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    color: #fff;
+    padding-top:35px;
+    padding-bottom: 65px;
+}
+.footer-main{
+    display:flex;
+     justify-content: space-between;
+}
+.footer-image{
+    /* display: flex; */
+    gap: 31px;
+}
+.footer-text2  h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--monstart);
+    color: #fff;
+    padding-top:65px;
+    padding-bottom: 30px;
+} 
